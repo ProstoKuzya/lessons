@@ -1,0 +1,38 @@
+@import url(reset.css);
+.text {
+	color: red;
+}
+
+.text2 {
+}
+.inside {
+	color: coral;
+}
+.inside-text {
+}
+.text .text2{
+	color: green;
+}
+.text2 ~ p{
+	color: yellow;
+}
+.text2 + p{
+	color: gray;
+}
+.inside > p{
+	color: cornflowerblue;
+}
+
+
+[class*="violet"] > .text{
+	color: violet ;
+}
+.inside-text + .text-new{
+	color: purple;
+}
+.text{
+	color: blue;
+}
+.footer-inside-text > .inside-text{
+	color: orange;
+}
