@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+.block-1 {
+}
+.title {
+	color: #37393F;
+font-family: "Poppins";
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 127%;
+}
+.items,
+.text {
+	color: #7D7D7D;
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 146.187%;
+}
+
+.text-popins {
+	color: #6B77E5;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 127%;
+}
+
+
+.block-2 {
+}
+.title-2 {
+	color: #37393F;
+font-family: "Poppins";
+font-size: 40px;
+font-weight: 700;
+line-height: 127%;
+}
