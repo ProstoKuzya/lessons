@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+/* @font-face {
+	font-family: "DM Serif Text";
+	src: 
+	url("../fonts/DMSerifText-Regular.woff2") format("woff2"),
+	urDM Serif Textl("../fonts/DMSerifText-Regular.woff") format("woff") ;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+} */
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url(reset.css);
+.header-img{
+	max-width: 692px;
+	margin-bottom: 37px;
+}
+.main-body-top {
+	max-width: 692px;
+}
+.title {
+	margin-bottom:12px;
+	font-family: Poppins;
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 127%
+}
+.text {
+	font-family: Inter;
+	color: #7D7D7D;
+	font-size: 18px;
+	line-height: 146.187%;
+	margin-bottom: 40px;
+}
+.text-poppins {
+	color: #6B77E5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 12px;
+}
+.main-body-bottom {
+	max-width: 692px;
+	font-size: 0;
+}
+.main-img{
+	margin-right: 29px;
+}
+.contant {
+	max-width: 332px;
+	display: inline-block;
+}
+.main-title{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 15px;
+}
+.sub-title {
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 23px;
+}
+.items {
+}
+.item {
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+.footer-contant {
+	display: inline-block;
+	max-width: 563px;
+	margin-right: 38px;
+}
+.footer-sub-title {
+	color: #D06B00;
+font-size: 28px;
+margin: 21px 0 13px 0;
+}
+.footer-title {
+	color: #0E333D;
+	font-family: "DM Serif Text"; 
+	font-size: 59px;
+	line-height: 146.5%;
+	margin-bottom: 25px;
+}
+.footer-text {
+	color: #474747;
+	font-family: Inter;
+	font-size: 20px;
+	line-height: 180%;
+}
+.footer-img {
+	vertical-align: top;
+	display: inline-block;
+	font-size: 0;
+}
+.footer-img img{
+	margin-right: 22px;
+	max-width: 100%;
+}
