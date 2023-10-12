@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500&display=swap" );
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+@font-face {
+	font-family: "Core Sans C";
+	src:
+	url("../fonts/CoreSansC-55Medium.woff2") format("woff2"),
+	url("../fonts/CoreSansC-55Medium.woff") format("woff");
+}
+@font-face {
+	font-family: "Causten";
+	src: 
+	url("../fonts/Causten-Regular.woff2") format("woff2"),
+	url("../fonts/Causten-Regular.woff") format("woff");
+}
+
+@import url(reset.css);
+/* прописав це бо шріфт який я підключив через файли добавляє ці стилі, як їх убрать по другому я не придумав),
+я скачував декілька шрифтів і кожен з них добавляє ті ж самі стилі, а файл обнулення не допомагає*/
+body * {
+	text-decoration: none;
+}
+header {
+	color: #37393F;
+	max-width: 1220px;
+	padding: 0 15px;
+	margin: 50px 0 ;
+	font-family: Inter;
+	font-size: 18px;
+}
+.block-title {
+	margin-bottom: 70px;
+	text-align: center;
+}
+.header-sub-title {
+font-weight: 500;
+}
+.header-sub-title span{
+	display: inline-block;
+	margin-right: 6px;
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+}
+.header-title {
+font-family: Poppins;
+font-size: 60px;
+font-weight: 700;
+line-height: 121%;
+}
+
+
+.fonts-title,
+.photography-title,
+.graphics-title{
+	font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 121%;
+margin-bottom: 11px;
+}
+.fonts-text,
+.photography-text,
+.graphics-text {
+	color: #7D7D7D;
+	line-height: 146.187%;
+	margin-bottom: 32px;
+}
+
+
+
+.graphics {
+	margin-bottom: 100px;
+}
+.graphics-link {
+	font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+
+}
+.link {
+	color: #40DDB6;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+}
+
+
+
+
+.photography {
+	margin-bottom: 100px;
+}
+.photography-links .photography-link{
+	margin-bottom: 24px;
+}
+.photography-pexels {
+	font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 8px;
+}
+.photography-link, a {
+	color: #40DDB6;
+}
+.fonts {
+}
+
+
+
+.main {
+}
+.project-contant{
+	font-family: Inter;
+	color: #7D7D7D;
+	font-size: 18px;
+	margin: 0 auto;
+	max-width: 834px;
+}
+.main-contant .contant-item,.contant-text {
+	margin-bottom: 35px;
+line-height: 146.187%;
+}
+.contant-text > * ,.contant-items > * {
+	margin-bottom: 32px;
+}
+.contant-title {
+	color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 127%;
+margin-bottom: 13px;
+}
+.contant-items {
+}
+.contant-item {
+}
+
+
+/* прописав це бо шріфт який я підключив через файли добавляє ці стилі, як їх убрать по другому я не придумав),
+я скачував декілька шрифтів і кожен з них добавляє ті ж самі стилі, а файл обнулення не допомагає */
+.clothing-wrapper * {
+margin: 0;
+padding: 0;
+font-weight: 400;
+font-size: 16px;
+margin-inline: 0px;
+margin-block: 0px;
+
+}
+.clothing-contant {
+	max-width: 1240px;
+padding-left: 21px;
+}
+
+.clothing-title {
+	color: #3C4242;
+font-family: "Core Sans C";
+font-size: 28px;
+font-weight: 600;
+line-height: 119.643% ;
+letter-spacing: 0.56px;
+margin-bottom: 30px;
+}
+.text-title {
+	color: #807D7E;
+font-family: "Core Sans C";
+line-height: 167.5%;
+letter-spacing: 0.4px;
+margin: 25px 0;
+}
+.clothing-text {
+	color: #807D7E;
+font-family: Causten;
+font-size: 20px;
+line-height:137.5%;
+letter-spacing: 0.4px;
+}
+.clothing-text span {
+
+font-weight: 700;
+
+}
+.link-text {
+	display: inline-block;
+	color: #807D7E;
+font-family: "Core Sans C";
+margin-top: 20px;	
+}
+
+
+
+
+.footer {
+	padding-bottom: 1000px;
+}
+.developer {
+	max-width: 1103px;
+	font-size: 0;
+	margin: 0 auto;
+}
+.developer-contant {
+	max-width: 503px;
+	display: inline-block;
+	margin-right: 75px;
+	font-family: "Cormorant Infant";
+	font-weight: 700;
+	}
+.developer-sub-title {
+	color: #D58417;
+
+font-size: 20px;
+line-height: 100%;
+	margin-bottom: 27px;
+}
+.developer-title {
+	color: #000;
+font-size: 64px;
+line-height: 100%;
+	margin-bottom: 31px;	
+}
+.developer-text {
+	color: #606060;
+font-size: 30px;
+line-height: 140%;
+}
+.developer-images {
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.developer-img-left,.developer-img-right{
+	display: inline-block;
+	margin-right: 30px;
+	border: 1px solid #502203;
+	border-radius: 235px;
+}
+.img-1{
+	margin-left: -10px;
+    padding-top: 14px;
+}
+.img-2{
+	margin-left: -11px;
+    padding-top: 19px;
+}
