@@ -227,20 +227,19 @@ line-height: 140%;
 }
 .developer-images {
 	display: inline-block;
-	vertical-align: top;
-	
+
 }
-.developer-img-left,.developer-img-right{
+.developer-img{
 	display: inline-block;
-	margin-right: 30px;
 	border: 1px solid #502203;
 	border-radius: 235px;
+	margin-right: 17px;
+
 }
-.img-1{
-	margin-left: -10px;
-    padding-top: 14px;
+.developer-img img{
+	border-radius: 235px;
 }
-.img-2{
-	margin-left: -11px;
-    padding-top: 19px;
-}
+/* в мене не вийшло зробить це мерджинами , тобу буду ждать позиціонування і тіки тоже в мене получиться ,
+щас в мене не хватило смікальки з цим справиться , шо б я не прописував в мене просто увілічується блок
+з картінкою і бордер просто від нього відходить а не картінка виходить з блока , не знаю чому мінусовий мерджин не спрацював ,
+я дивився другі роботи ,повторяв за ними але результат ти й же */
